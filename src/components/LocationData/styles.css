@@ -1,0 +1,40 @@
+.container {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+.info-card{
+    width: 60%;
+    top: 150px;
+    height: 110px;
+    background:#ffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #00000049;
+}
+section{
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    
+}
+
+p{
+    text-transform: uppercase;
+    color: #00000049;
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+span {
+    background: #00000049;
+    width: 1px;
+    height: 50%;
+    content: '';
+    margin-right: 8px;
+}

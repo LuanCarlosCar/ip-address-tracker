@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 30vh;
+    width: 100%;
+    background-image: url(../../assets/pattern-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #ffffff;
+}
+form{
+    background-color: transparent;
+    display: flex;
+    align-items: stretch;
+    border: 0;
+    width: 45%;
+    height: 60px;
+}
+input{
+    border-radius: 10px 0 0 10px;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 0;
+    font-size: 1em;
+    font-weight: 600;
+    outline: none;
+    color: #00000071;
+    background: #ffff;
+}
+button{
+    border-radius: 0 10px 10px 0;
+    width: 12%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background:#0c0c0c;
+    transition: 0.3s background;
+    color: #ffff;
+    font-size:2em;
+    font-weight: bolder;
+}
+
+button:hover {
+    background:#0c0c0cb4;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}
